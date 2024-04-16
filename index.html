@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPOTIFY</title>
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+<nav class="navbar">
+  <div class="logo">
+    <img src="logo.png" alt=""> Spotify
+  </div>
+   <div class="Home">
+    
+    <a class="ancar" href="#"> Home</a>
+    <a  class="ancar" href="#">About</a>    
+</div>
+</nav>
+  </header>
+<div class="container"> 
+<div class="songList">
+  <h1 style="text-transform: uppercase;">Best of NCS -make your day happy </h1>
+  <div class="songItemContainer">
+    <div class="songItem">
+      <img class="img" src="covers/Ram ayenge.png" alt="1"> 
+      <span class="songName" ></span>
+      <span class="songListPlay"> <span class="timestamp">  <i id="0" class="fa-regular songItemPlay fa-1.5x fa-circle-play"></i></span> </span>
+    </div>
+    <div class="songItem">
+      <img class="img" src="covers/O-Maahi.jpg" alt="1"> 
+      <span class="songName"></span>
+      <span class="songListPlay"> <span class="timestamp">  <i id="1"  class="fa-regular songItemPlay fa-1.5x fa-circle-play"></i></span> </span>
+    </div>
+    <div class="songItem">
+      <img  class="img" src="covers/VE HANIYA.jpg" alt="1"> 
+      <span class="songName"></span>
+      <span class="songListPlay"> <span class="timestamp">  <i id="2"  class="fa-regular songItemPlay fa-1.5x fa-circle-play"></i></span> </span>
+    </div>
+    <div class="songItem"> 
+      <img class="img" src="covers/Jailer.jpg" alt="1"> 
+      <span class="songName"></span>
+      <span class="songListPlay"> <span class="timestamp">  <i id="3"  class="fa-regular songItemPlay fa-1.5x fa-circle-play"></i></span> </span>
+    </div>
+    <div class="songItem">
+      <img class="img" src="covers/Jr-NTR.jpg" alt="1"> 
+      <span class="songName"></span>
+      <span class="songListPlay"> <span class="timestamp"> <i id="4"  class="fa-regular songItemPlay fa-1.5x fa-circle-play"></i></span> </span>
+    </div>
+    <div class="songItem">
+      <img class="img" src="covers/yimmy.jpeg" alt="1"> 
+      <span class="songName"></span>
+      <span class="songListPlay"> <span class="timestamp">  <i id="5"  class="fa-regular songItemPlay fa-1.5x fa-circle-play"></i></span> </span>
+    </div>
+    <div class="songItem">
+      <img class="img" src="covers/SHUBH.jpeg" alt="1"> 
+      <span class="songName"></span>
+      <span class="songListPlay"> <span class="timestamp"> <i id="6"  class="fa-regular songItemPlay fa-1.5x fa-circle-play"></i></span> </span>
+    </div>
+    <div class="songItem">
+      <img class="img" src="covers/SHUBH.jpeg" alt="1"> 
+      <span class="songName"></span>
+      <span class="songListPlay"> <span class="timestamp">  <i id="7"  class="fa-regular songItemPlay fa-1.5x fa-circle-play"></i></span> </span>
+    </div> 
+    
+  </div>
+</div>
+<div class="songBanner"></div>
+</div>
+
+<div class="bottom">
+  <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+<div class="icons">
+  <i class="fa-solid fa-3x fa-backward" id="previous"></i>
+  <i class="fa-regular fa-3x fa-circle-play" id="masterPlay"></i>
+  <i class="fa-solid fa-3x fa-forward" id="next"></i>
+</div>
+<div class="songinfo">
+  <img src="playing.gif" width="42px" alt="" id="gif">  <span id="masterSongName"   > </span> 
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
